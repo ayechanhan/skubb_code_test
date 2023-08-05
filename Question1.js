@@ -9,8 +9,8 @@ function list_people(people) {
     name_list.sort((a, b) => {
         return a.localeCompare(b)
     })
-    return name_list
+    return name_list.join(",")
 }
 
-people = [{"Mary": 17}, {"Bob": 62}, {"John": 32}]
+const people = [{"Mary": 17}, {"Bob": 62}, {"John": 32}]
 console.log(list_people(people))
