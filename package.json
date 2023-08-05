@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "Question1": "node Question1",
+    "Question2": "node Question2",
+    "Question3": "node Question3",
+    "Question5": "node Question5"
   },
   "repository": {
     "type": "git",
