@@ -2,8 +2,8 @@
 
 	// $raining = FALSE;  $warm = TRUE;  $daytime = FALSE; 
 
-function check_weather(raining, warm, daytime){
-    if(!raining && (warm || daytime)){
+function check_weather(isRaining, isWarming, isDaytime){
+    if(!isRaining && (isWarming || isDaytime)){
         return "Go outside"
     }
     else{
