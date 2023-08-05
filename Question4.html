@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question 4</title>
+</head>
+<body>
+  <div id="container"></div>
+
+  <script>
+    function display_x() {
+      var container = document.getElementById('container');
+      var count = 0;
+
+      for (var i = 1; i <= 100; i++) {
+        count++;
+        var inputBox = document.createElement('input');
+        inputBox.type = 'text';
+        inputBox.id = 'inputBox' + i;
+        if (count % 4 === 0) {
+          inputBox.value = "x"
+        }
+        container.appendChild(inputBox);
+
+      }
+    }
+    display_x();
+  </script>
+</body>
+</html>
